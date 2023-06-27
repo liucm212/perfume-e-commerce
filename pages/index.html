@@ -10,8 +10,18 @@
     <%- include('./layout/header'); -%>
 
     <h1 class="index-title">我是首頁</h1>
-    <button class="btn btn-primary">button</button>
-    <img src="../assets/images/cat.jpg" style="width: 300px" alt="cat" />
+    <div class="container-fluid bg-ntue-primary">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-3">
+          <h2>left section</h2>
+          <button class="btn btn-ntue-secondary">button</button>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2>right section</h2>
+          <button class="btn btn-ntue-third">button</button>
+        </div>
+      </div>
+    </div>
 
     <%- include('./layout/footer'); -%>
 
