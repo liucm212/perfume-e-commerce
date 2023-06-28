@@ -1,4 +1,33 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.nav .nav-item{
+  margin-left: 28px;
+}
+
+.nav-item{
+  a{
+    display: flex;
+    align-items: center;
+    padding: 16px 0 ;
+  }
+}
+
+.cart-icon{
+  position: relative;
+}
+
+@media (max-width:767px){
+  .cart-icon::before{
+    content: '33333';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 16px;
+    height: 13px;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #916000;
+  }
+  .cart-icon, .menu-icon{
+    font-size: 30px;
+    margin: 18px 20px;
+  }
 }

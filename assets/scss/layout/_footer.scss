@@ -1,4 +1,16 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  &-img{
+    width: 100%;
+    height: 600px;
+    background: url("https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1180&q=80") no-repeat center/cover;
+    h2{
+      padding-top: 312px;
+    }
+  }
+}
+
+@media (max-width:767px){
+  footer .container > ul{
+    width: 100%;
+  }
 }
