@@ -410,17 +410,21 @@ $spacer: 0.625rem !default; //10px is default
 $spacers: (
   // all spacing 28  30 16 60 80 20 28 32 
   0: 0,
+  4:  $spacer * .4,
   8:  $spacer * .8,
   11: $spacer * 1.1,
   14: $spacer * 1.4,
   16: $spacer * 1.6,
   20: $spacer * 2.0,
+  24: $spacer * 2.4,
   28: $spacer * 2.8,
   30: $spacer * 3.0,
   32: $spacer * 3.2,
   36: $spacer * 3.6,
+  40: $spacer * 4.0,
   60: $spacer * 6.0,
   80: $spacer * 8.0,
+  110: $spacer * 11.0,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
