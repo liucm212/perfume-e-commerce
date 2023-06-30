@@ -70,12 +70,6 @@
 }
 
 //! display
-.display-item{
-  &:hover{
-    position: relative;
-    top: -10px;
-  }
-}
 .display-img{
   width: 100%;
   height: 540px;
@@ -121,10 +115,21 @@
   }
   .banner{
     height: 480px;
+    &-button{
+      margin: 0 auto;
+    }
   }
   .intro{
     &-button{
       margin: 0 auto;
+    }
+  }
+}
+@media (min-width:768px){
+  .display-item{
+    &:hover{
+      position: relative;
+      top: -10px;
     }
   }
 }
