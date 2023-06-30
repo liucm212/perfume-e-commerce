@@ -1,3 +1,9 @@
+//! a連結：查看更多 
+.underline-hover{
+  &:hover{
+    text-decoration: underline;
+  }
+}
 //! banner 
 .banner{
   background: url("https://images.unsplash.com/photo-1588159343745-445ae0b16383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80") no-repeat center / cover;
@@ -19,6 +25,10 @@
     width: 350px;
     line-height: 60px;
     text-align: center;
+    transition: background-color, 0.3s;
+    &:hover{
+      background-color: #FFFFFF4D;
+    }
   }
 }
 
@@ -44,11 +54,15 @@
 .intro{
   &-button{
     text-align: center;
-    border: 2px solid #000000;
+    border: 2px solid var(--bs-dark);
     width: 350px;
     line-height: 60px;
     border-radius: 30px;
-    font-size: 1.5rem
+    font-size: 1.5rem;
+    transition: background-color, 0.3s;
+    &:hover{
+      background-color: #0000000D;
+    }
   }
   &-text{
     margin-bottom: 52px;
@@ -56,6 +70,12 @@
 }
 
 //! display
+.display-item{
+  &:hover{
+    position: relative;
+    top: -10px;
+  }
+}
 .display-img{
   width: 100%;
   height: 540px;

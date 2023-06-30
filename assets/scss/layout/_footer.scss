@@ -17,10 +17,13 @@
   &-button{
     background-color: transparent;
     border:none;
+    &:hover{
+      background-color: #6C4700;
+    }
   }
 }
 
-footer{
+.footer-info{
   height: 80px;
   display: flex;
   flex-direction: column;
